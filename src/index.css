@@ -1,0 +1,68 @@
+@import url('./fonts/BiroScript/stylesheet.css');
+@import url('./fonts/MessinaSans/stylesheet.css');
+@import url('./fonts/RightGrotesk/stylesheet.css');
+
+body {
+  color: #FFF;
+  font-family: "Messina Sans Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.19;
+  text-transform: uppercase;
+  background: #181818;
+  width: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+  body {
+    font-size: 24px;
+    line-height: 1.21d
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
