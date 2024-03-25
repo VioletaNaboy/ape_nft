@@ -35,7 +35,7 @@ export const Header = ({isMobile}) => {
               </svg>
                 </li>
             </ul>
-           <MobileMenu isOpen={isMenuOpen} onClose={toggleMenu} />
+        <MobileMenu isOpen={isMenuOpen} onClose={toggleMenu} isMobile={isMobile} />
       </header>  
     )
 }

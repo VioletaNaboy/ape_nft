@@ -28,12 +28,12 @@ function App() {
       <Header isMobile={isMobile} />
       <main>
         <Hero />
-        <StorySection id='about'/>
-        <MindSection id='m-map'isMobile={isMobile} />
-        <FAQSection id='faq' isMobile={isMobile} />
-        <Collection id='collection' />
+        <StorySection />
+        <MindSection isMobile={isMobile} />
+        <FAQSection  isMobile={isMobile} />
+        <Collection/>
       </main>
-      <Footer id='mint'/>  
+      <Footer/>  
     </>
   );
 }

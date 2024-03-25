@@ -19,7 +19,7 @@ export const MindSection = ({isMobile}) => {
     };
 
     return (
-        <section className={styles.minds}>
+        <section className={styles.minds} id='m-map'>
             <h2 className={styles.title}> MIND map</h2>
             <div className={styles.slider}>
                 <div className={styles.slides} style={isMobile ? { transform: `translateX(-${currentSlide * 100}%)` } : {}}>

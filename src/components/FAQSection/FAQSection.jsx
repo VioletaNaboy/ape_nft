@@ -19,7 +19,7 @@ export const FAQSection = ({isMobile}) => {
         { title: 'WHAT RIGHTS DO I HAVE AS AN OWNER OF AN NFT?', desc: "As an NFT owner, you can own, transfer, potentially access exclusive content, resell, but don't automatically get copyright or intellectual property rights.", img: fourth }
     ]
     return (
-        <section className={styles.faq}>
+        <section className={styles.faq} id='faq'>
             <h2 className={styles.title}>FAQ</h2>
             <ul className={styles.faqList}>
                 {cards.map((card, i) =>

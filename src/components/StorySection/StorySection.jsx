@@ -4,7 +4,7 @@ import img from '../../images/about/img.png'
 export const StorySection = () => {
     return (
         <>
-        <section className={styles.about}>
+        <section className={styles.about} id='about'>
         <h2 className={styles.title}>
             Story that started with 
                 {" "}<span style={{ color: "#DC3B5A" }}>one simple ape</span>

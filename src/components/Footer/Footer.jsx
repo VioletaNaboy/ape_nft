@@ -2,7 +2,7 @@ import styles from './Footer.module.css'
 import sprite from '../../images/svg/sprite.svg'
 export const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id='mint'>
             <h2 className={styles.title}>Are you in?</h2>
             <div className={styles.desc}>
                 <svg width="36" height="36">

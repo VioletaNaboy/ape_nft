@@ -39,7 +39,7 @@ export const Collection = () => {
     };
 
     return (
-        <section className={styles.collection}>
+        <section className={styles.collection} id='collection'>
             <h2 className={styles.title}>Collection</h2>
             <div className={styles.slider}>
                 <div className={styles.wrapper}>
