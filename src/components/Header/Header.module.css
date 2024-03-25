@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    cursor: pointer;
 }
 
 .logoSocial {
@@ -41,12 +41,23 @@
     font-style: normal;
     font-weight: 600;
     line-height: 1.17;
+    text-transform: uppercase;
 }
 
 .menuList {
     display: flex;
     flex-direction: column;
     gap: 8px;
+}
+
+.menuIconOpen {
+    fill: #fff;
+    color: #fff;
+}
+
+.menuIconOpen.menuItem {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(6px);
 }
 
 @media screen and (min-width: 1280px) {

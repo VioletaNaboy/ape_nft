@@ -1,0 +1,92 @@
+     @media screen and (max-width: 767.9px) {
+         .menu {
+             position: absolute;
+             width: 100%;
+             height: 100vh;
+             left: 0;
+             top: 0;
+             background-color: #181818;
+             z-index: 99;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             padding: 24px;
+         }
+
+         .menu ul {
+             display: flex;
+             flex-direction: column;
+             gap: 16px;
+             align-items: center;
+             justify-content: center;
+             margin-bottom: 77px;
+
+         }
+
+         .menu a {
+             color: #FFF;
+             font-family: "Messina Sans Mono";
+             font-size: 24px;
+             font-weight: 600;
+             line-height: 1.21;
+         }
+
+         .menu p {
+             position: absolute;
+             text-align: center;
+             font-size: 12px;
+             bottom: 24px;
+         }
+     }
+
+     @media screen and (min-width: 768px) {
+         .menu {
+             position: absolute;
+             z-index: 100;
+             top: 70px;
+             right: 52px;
+             background: rgba(30, 30, 30, 0.10);
+             border-radius: 12px 0px 0px 12px;
+             backdrop-filter: blur(6px);
+         }
+
+         .menu ul {
+             display: flex;
+
+         }
+
+         .menu li {
+             width: 48px;
+             height: 48px;
+         }
+
+         .menu a {
+             width: 100%;
+             height: 100%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             color: #1E1E1E;
+             font-family: "Messina Sans Mono";
+             font-size: 12px;
+             font-weight: 600;
+             line-height: 1.19;
+             text-transform: uppercase;
+         }
+     }
+
+     @media screen and (min-width: 1280px) {
+         .menu {
+             right: 76px;
+         }
+
+         .menu li {
+             width: 80px;
+             height: 80px;
+         }
+
+         .menu a {
+             font-size: 16px;
+         }
+     }
