@@ -6,6 +6,7 @@
     padding: 36px 63px 19px 63px;
     color: #1E1E1E;
     text-align: center;
+    position: relative;
 }
 
 .photoHero {
@@ -33,7 +34,7 @@
     line-height: 1.69;
 }
 
-.name {
+.btn {
     color: #FFF;
     font-family: "Right Grotesk", sans-serif;
     font-size: 16px;
@@ -47,4 +48,67 @@
     backdrop-filter: blur(6px);
     text-wrap: nowrap;
     margin: 0 auto 12px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #1E1E1E;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 100vh;
+    }
+
+    .titleWrapper {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 92px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .photoHero {
+        width: 283px;
+        height: 386px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .btnWrapper {
+        width: 190px;
+        position: absolute;
+        bottom: 22px;
+        right: 88px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .title {
+        font-size: 188px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    .photoHero {
+        width: 511px;
+        height: 675px;
+    }
 }

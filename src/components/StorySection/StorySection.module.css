@@ -72,3 +72,83 @@
     animation: scroll 20s linear infinite;
     width: max-content;
 }
+
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 88px 91px 0 91px;
+        position: relative;
+        height: 627px;
+    }
+
+    .title {
+        font-size: 52px;
+        width: 296px;
+    }
+
+    .descFirst {
+        font-size: 16px;
+        position: absolute;
+        top: 88px;
+        right: 91px;
+        width: 276px;
+    }
+
+    .wpapperDesc {
+
+        position: absolute;
+        width: 269px;
+        left: 88px;
+        bottom: 36px;
+    }
+
+    .descSecond {
+        font-size: 16px;
+    }
+
+    .photoAbout {
+        width: 313px;
+        height: 422px;
+        position: absolute;
+        right: 88px;
+        bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about {
+        padding: 131px 136px 0 136px;
+        height: 1126px;
+    }
+
+    .title {
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 1;
+        width: 548px;
+    }
+
+    .descFirst {
+        font-size: 24px;
+        width: 409px;
+    }
+
+    .wpapperDesc {
+        font-size: 24px;
+        position: absolute;
+        width: 417px;
+        left: 196px;
+        bottom: 82px;
+    }
+
+    .descSecond {
+        font-size: 24px;
+    }
+
+    .photoAbout {
+        width: 610px;
+        height: 822px;
+        right: 136px;
+        bottom: 0;
+    }
+}
