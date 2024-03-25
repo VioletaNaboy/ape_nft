@@ -23,9 +23,7 @@
 .card {
     width: 100%;
     height: auto;
-    border-radius: 12px;
     margin: 0 auto;
-    padding: 10px 8px;
 }
 
 .card.open {
@@ -37,6 +35,8 @@
     justify-content: space-between;
     align-items: flex-start;
     gap: 8px;
+    border-radius: 12px;
+    padding: 10px 8px;
 }
 
 .titleWrapper span {
@@ -64,4 +64,72 @@
 
 .titleWrapper p {
     font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .faq {
+        padding: 80px 88px 0 88px;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .card {
+        display: flex;
+        position: relative;
+        justify-content: end;
+    }
+
+    .titleWrapper {
+        width: 404px;
+        gap: 24px;
+    }
+
+    .titleWrapper span {
+        font-size: 24px;
+    }
+
+    .titleWrapper h4 {
+        font-size: 32px;
+    }
+
+    .photo {
+        position: absolute;
+        left: 0;
+        width: 182.613px;
+        height: 183px;
+        transform: rotate(-16deg);
+        border-radius: 16px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .faq {
+        padding: 120px 138px 0 138px;
+    }
+
+    .title {
+        font-size: 160px;
+        margin-bottom: 80px;
+    }
+
+    .titleWrapper {
+        width: 800px;
+        gap: 31px;
+    }
+
+    .titleWrapper h4 {
+        font-size: 64px;
+    }
+
+    .titleWrapper p {
+        font-size: 16px;
+    }
+
+    .photo {
+        width: 306px;
+        height: 281.999px;
+    }
 }

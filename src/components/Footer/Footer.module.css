@@ -86,3 +86,45 @@
     text-align: center;
     font-size: 12px;
 }
+
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 80px 186px 40px;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .form {
+        width: 248px;
+        margin: 0 auto 80px;
+    }
+
+    .desc p {
+        width: 397px;
+        margin: 0 auto 24px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .footer {
+        padding: 120px 348px 42px;
+    }
+
+    .title {
+        font-size: 160px;
+        margin-bottom: 80px;
+    }
+
+    .form {
+        width: 398px;
+        margin: 0 auto 120px;
+    }
+
+    .desc p {
+        width: 581px;
+        margin: 0 auto 40px;
+    }
+}

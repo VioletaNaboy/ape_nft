@@ -27,6 +27,7 @@
     display: flex;
     gap: 48px;
     justify-content: center;
+    height: 56px;
 
 }
 
@@ -51,4 +52,42 @@
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .collection {
+        padding: 80px 88px 0 88px;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .wrapper {
+        display: flex;
+
+    }
+
+    .slide {
+        width: 240px;
+        height: 280px;
+        border-radius: 24px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .collection {
+        padding: 120px 138px 0 138px;
+    }
+
+    .title {
+        font-size: 160px;
+        margin-bottom: 80px;
+    }
+
+    .slide {
+        border-radius: 24px;
+    }
 }

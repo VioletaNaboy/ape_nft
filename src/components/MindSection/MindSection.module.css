@@ -68,3 +68,72 @@
     text-align: center;
     margin-bottom: 24px;
 }
+
+@media screen and (min-width: 768px) {
+    .minds {
+        padding: 80px 88px 0 88px;
+    }
+
+    .title {
+        font-size: 80px;
+        margin-bottom: 40px;
+    }
+
+    .slides {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+
+    .card {
+        position: relative;
+        min-width: 284px;
+        width: 284px;
+        height: 242px;
+        padding: 24px;
+    }
+
+    .cardDesc {
+        width: 128px;
+        position: relative;
+        right: -50%;
+    }
+
+    .cardIcon {
+        position: relative;
+        right: calc(-100% + 24px);
+        fill: #FFF;
+    }
+
+    a.card {
+        background-color: #DC3B5A;
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .minds {
+        padding: 120px 138px 0 138px;
+    }
+
+    .title {
+        font-size: 160px;
+        margin-bottom: 80px;
+    }
+
+    .card {
+        min-width: 560px;
+        width: 560px;
+        height: 480px;
+    }
+
+    .slides {
+        gap: 48px;
+    }
+
+    .cardDesc {
+        width: 256px;
+        font-size: 24px;
+    }
+}

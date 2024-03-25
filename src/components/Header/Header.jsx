@@ -1,22 +1,6 @@
 import styles from './Header.module.css'
-// import { useEffect, useState } from 'react'
 import sprite from '../../images/svg/sprite.svg'
-export const Header = () => {
-    // const [isMobile, setIsMobile] = useState(false);
-
-    // useEffect(() => {
-    //     const handleResize = () => {
-    //         setIsMobile(window.innerWidth <= 768);
-    //     };
-
-    //     handleResize();
-
-    //     window.addEventListener('resize', handleResize);
-
-    //     return () => {
-    //         window.removeEventListener('resize', handleResize);
-    //     };
-    // }, []);
+export const Header = ({isMobile}) => {
 
     return (
         <header className={styles.header}>
