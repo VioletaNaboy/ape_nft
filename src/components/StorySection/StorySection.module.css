@@ -1,0 +1,74 @@
+.about {
+    padding: 60px 72px 0 72px;
+}
+
+.title {
+    color: #FFF;
+    font-family: "Right Grotesk", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.descFirst {
+    text-align: right;
+    margin-bottom: 36px;
+}
+
+.descSecond {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.167;
+}
+
+.photoAbout {
+    width: 216px;
+    height: 292px;
+    margin: 0 auto;
+}
+
+.wpapperDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(50%);
+    }
+
+    100% {
+        transform: translateX(-150%);
+    }
+}
+
+.line {
+    background: #DC3B5A;
+    text-wrap: nowrap;
+    text-transform: uppercase;
+    font-family: "Right Grotesk", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lineText {
+    display: inline-flex;
+    padding: 6px 0px 8px 0px;
+    align-items: center;
+    gap: 24px;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;
+    width: max-content;
+}

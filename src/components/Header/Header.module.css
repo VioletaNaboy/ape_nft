@@ -1,0 +1,71 @@
+.header {
+    position: fixed;
+    width: 100%;
+    color: transparent;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 100vw;
+    padding: 8px;
+}
+
+.logoIcon {
+    width: 48px;
+    height: 32px;
+    fill: #1E1E1E;
+}
+
+.menuItem {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background: rgba(30, 30, 30, 0.10);
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logoSocial {
+    width: 24px;
+    height: 24px;
+    fill: #1E1E1E;
+}
+
+.navText {
+    color: #1E1E1E;
+    font-family: "Messina Sans Mono";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.17;
+}
+
+.menuList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .logoIcon {
+        width: 72px;
+        height: 50px;
+    }
+
+    .menuItem {
+        width: 80px;
+        height: 80px;
+    }
+
+    .navText {
+        font-size: 16px;
+        line-height: 1.19;
+    }
+
+    .menuList {
+        gap: 16px;
+    }
+}

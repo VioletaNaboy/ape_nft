@@ -1,0 +1,67 @@
+.faq {
+    padding: 60px 72px 0 72px;
+}
+
+.title {
+    color: #FFF;
+    font-family: "Right Grotesk", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.faqList {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 0 auto;
+    padding: 10px 8px;
+}
+
+.card.open {
+    background: #1E1E1E;
+}
+
+.titleWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.titleWrapper span {
+    color: #DC3B5A;
+    font-family: "Biro Script Plus";
+    font-size: 16px;
+    line-height: 1.69;
+}
+
+.card.open span {
+    color: #FFF;
+}
+
+.titleWrapper h4 {
+    font-family: "Right Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.card.open h4 {
+    color: #DC3B5A;
+}
+
+.titleWrapper p {
+    font-size: 12px;
+}
