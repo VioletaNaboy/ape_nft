@@ -1,22 +1,22 @@
 import styles from './Header.module.css'
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import sprite from '../../images/svg/sprite.svg'
 export const Header = () => {
-    const [isMobile, setIsMobile] = useState(false);
+    // const [isMobile, setIsMobile] = useState(false);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
-        };
+    // useEffect(() => {
+    //     const handleResize = () => {
+    //         setIsMobile(window.innerWidth <= 768);
+    //     };
 
-        handleResize();
+    //     handleResize();
 
-        window.addEventListener('resize', handleResize);
+    //     window.addEventListener('resize', handleResize);
 
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    //     return () => {
+    //         window.removeEventListener('resize', handleResize);
+    //     };
+    // }, []);
 
     return (
         <header className={styles.header}>

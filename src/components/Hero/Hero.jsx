@@ -8,7 +8,7 @@ export const Hero = () => {
                 <h1 className={styles.title}>YACHT APES</h1>
                 <h2 className={styles.subtitle}>Apes aRe eveRywhere</h2>
             </div> 
-            <img src={img} alt="Photo of a monkey" className={styles.photoHero} />
+            <img src={img} alt="A monkey" className={styles.photoHero} />
             <div>
                 <h3 className={styles.name}>MEET APES</h3>
                 <p>Yacht Ape is a collection of unique digital apes that you can own in NFT format</p>
